@@ -1,0 +1,76 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.header{
+  background-image: url('./utils/images/hero-bg-desktop@2x.jpg');
+  height: 100%;
+}
+
+.white{
+  background-color:#fff ;
+}
+
+section {
+  padding: 80px 0;
+}
+.box{
+  padding: 1%;
+}
+
+.dark-footer{
+  background-color: #080808;
+  padding-left: 10%;
+  color: #fff;
+}
+.dark{
+  background-color: #080808;
+}
+
+.span-1-of-3 {
+	width: 32.26%; 
+}
+
+.col:first-child {
+  margin-left: 0;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.row{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.row-footer{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.footer-header{
+  color:#fff;
+  padding-top: 50px;
+}
+
+.white-footer{
+  color: #fff;
+  padding-top: 50px;
+ }
+
+ .row {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.row:before,
+.row:after {
+  content:"";
+  display:table;
+}
+.row:after {
+  clear:both;
+}

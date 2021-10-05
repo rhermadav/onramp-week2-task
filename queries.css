@@ -1,0 +1,58 @@
+@media only screen and (max-width:480px) {
+    /* .row{padding: 0 4%; } */
+  .span-1-of-3 {
+    width: 100%; 
+  }
+
+  .dicebutton{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    padding: 4%;
+    margin-right: 5%;
+  }
+
+  .white{
+    background-color:#fff ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    position: absolute;
+    top: 10%; right: 0%;
+  }
+  .header{
+    background-color: #fff;
+    background-image: url('./utils/images/hero-bg-mobile.jpg');
+    /* background-position: left; */
+     /*
+    background-repeat: no-repeat;*/
+    background-attachment: fixed; 
+  }
+}
+
+@media only screen and (max-width:767px) {
+  
+  .white{
+    /* background-color:#fff ;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%; */
+    position: absolute;
+    top: 20%; right: 20%;
+  }
+
+  .header{
+  background-color: #fff;
+  background-image: url('./utils/images/hero-bg-tablet.jpg');
+  /* background-position: left; */
+   /*
+  background-repeat: no-repeat;*/
+  background-attachment: fixed; 
+}
+#tablet1{
+  max-width: 50%;
+}
+
+}
